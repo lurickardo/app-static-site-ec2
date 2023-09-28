@@ -38,7 +38,6 @@ jobs:
 
       - name: Step 07 - Terraform Plan with Contract Tests
         run: terraform -chdir=./terraform plan -input=false -out tfplan
-        #
         # run : terraform -chdir=./terraform plan -input=false -destroy -out tfplan
 
       - name: Step 08 - Terraform Security Scannning Setup
